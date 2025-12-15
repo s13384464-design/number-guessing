@@ -27,7 +27,7 @@ const bgColors = {
 
 // 🎯 Random number (1–50)
 let randomNumber = Math.floor(Math.random() * 50) + 1;
-while(randomNumber % 11 == 0) {
+while(randomNumber % 11 == 0 || randomNumber % 10 == 0) {
     randomNumber = Math.floor(Math.random() * 50) + 1;
 }
 
@@ -141,3 +141,4 @@ style.innerHTML = `
 `;
 
 document.head.appendChild(style);
+
