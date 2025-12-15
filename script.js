@@ -13,16 +13,17 @@ let chanceNumber = 5;
 
 // 🎨 Number wise colors
 const bgColors = {
-    1: "#8B5CF6", // Purple
-    2: "#EF4444", // Red
-    3: "#22C55E", // Green
-    4: "#3B82F6", // Blue
-    5: "#F59E0B", // Orange
-    6: "#EC4899", // Pink
-    7: "#14B8A6", // Teal
-    8: "#6366F1", // Indigo
-    9: "#84CC16"  // Lime
+    1: "#000", // Black
+    2: "#fff", // White
+    3: "#ff0000", // Red
+    4: "#008000", // Green
+    5: "#0000ff", // Blue
+    6: "#ffa500", // Orange
+    7: "#ffc0cb", // Pink
+    8: "#00ffff", // Aqua
+    9: "#800080"  // Purple
 };
+
 
 // 🎯 Random number (1–50)
 let randomNumber = Math.floor(Math.random() * 50) + 1;
@@ -138,4 +139,5 @@ style.innerHTML = `
   100% {transform: translateY(100vh) rotate(360deg);}
 }
 `;
+
 document.head.appendChild(style);
